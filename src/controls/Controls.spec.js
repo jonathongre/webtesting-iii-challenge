@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { render, fireEvent } from 'react-testing-library';
+import { render, fireEvent } from '@testing-library/react';
 import 'react-testing-library/cleanup-after-each';
 import { toBeDisabled } from '@testing-library/jest-dom';
 import Controls from './Controls';
